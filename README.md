@@ -1,58 +1,58 @@
-# Puissance 4 - Documentation
+# Connect Four - Documentation
 
-Projet réalisé en binôme.
+This project was done in pairs.
 
-## Sommaire
-I. [Rappel du Projet](#i-rappel-du-projet)  
-II. [Cadre de développement](#ii-cadre-de-développement)  
-III. [Stack Technique](#iii-stack-technique)  
-IV. [Comment installer le projet](#iv-comment-installer-le-projet)  
-V. [Utilisation](#v-utilisation)  
-VI.[Axes d'améliorations](#vi-axes-damélioration)  
-VII. [Remerciements](#viii-remerciements)  
+## Table of Contents
+I. [Project Overview](#i-project-overview)  
+II. [Development Environment](#ii-development-environment)  
+III. [Tech Stack](#iii-tech-stack)  
+IV. [How to Install the Project](#iv-how-to-install-the-project)  
+V. [Usage](#v-usage)  
+VI. [Improvement Suggestions](#vi-improvement-suggestions)  
+VII. [Acknowledgements](#vii-acknowledgements)  
 
+## I. Project Overview
 
-## I. Rappel du Projet
+The goal of this project was to create a Connect Four game in the terminal during the Java programming course. 
 
-Ce projet consistait à créer un Puissance 4 sur terminal lors de la piscine Java. 
+The project was to be developed in pairs within 4 days after spending one week in the Java course. It needed to allow for 2 players, and for each player to take turns during the game.
 
-L'ensemble du projet devait être développé à 2, en 4 jours après avoir passé une semaine en piscine Java. Il faut avoir la possibilité d'avoir 2 joueurs et que chacun puisse jouer à son tour.
+## II. Development Environment
 
-## II. Cadre de développement
+- **Institution**: Rennes Ynov Campus
+- **Study Level**: First year in Bachelor's degree in Computer Science
+- **Project Duration**: 4 days
+- **Main Constraints**:
+    - 2-player functionality
+    - Ability to restart the game
+    - Displaying player scores
 
-- **Établissement** : Rennes Ynov Campus
-- **Niveau d'études** : Première année en Bachelor Informatique
-- **Contraintes** :
-    * 4 jours
-    * Créer un jeu du Puissance 4 avec les possibilités suivantes : 
-        - Chaques joueurs peut créer son joueur 
-        - On peut restart la partie
-        - Affichage des scores
+## III. Tech Stack
 
-## III. Stack Technique
+- **Language**: Java
 
-- **Langages** : Java
+## IV. How to Install the Project
 
-## IV. Comment installer le projet
+### 1 - Prerequisites
 
-### 1 - Prérequis
+Install Make and Java JDK.
 
-Installer Make et java JDK 
+### 2 - Clone the Repository
 
-### 2 - Cloner le répertoire
+Navigate to the directory where you want to have the project.
+Then, open your cmd, Visual Studio Code, or your preferred IDE, and run the following command:
+``git clone https://github.com/Elouanche/Puissance_4_Java.git``
 
-Placez-vous dans le dossier où vous souhaitez avoir le projet.
-Ouvrez ensuite vôtre cmd, VisualStudioCode, ou votre IDE habituel, puis utilisez la commande ``git clone https://github.com/Elouanche/Puissance_4_Java.git``.
+## V. Usage
 
-## V. Utilisation
+At the root of the project, run **make build** and then **make run** to compile and start the game. 
+Once you're done testing the game, don't forget to use **make clean**.
 
-Sasissez à la racine du projet : **make build** puis **make run** afin de compiler et lancer le projet. 
-Une fois le jeu essayé, n'oublier pas d'utiliser **make clean**.
+## VI. Improvement Suggestions
 
-## VI. Axes d'amélioration
-   - Améliorer la jouabilité et l'interface graphique.
-   - Enregistrer les joueurs pour leur permettre de reprendre leur personnage.
+   - Improve the gameplay and graphical interface.
+   - Allow saving player data to let them resume their game later.
 
-## VII. Remerciements
+## VII. Acknowledgements
 
-Nous vous remercions d'avoir essayé notre projet en espérant que cela vous a plu !
+Thank you for trying out our project, and we hope you enjoyed it!
